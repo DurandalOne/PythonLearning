@@ -19,9 +19,9 @@ if guess != answer:
         guessCount += 1
         if guessCount == 3:
             print("If you want to stop guessing enter 0\n")
-        if guessCount == 9:
+        elif guessCount == 9:
             print("You have one more go!\n")
-        if guessCount == 10:
+        elif guessCount == 10:
             print("Game over! You've run out of guesses!\n")
             break
         if guess < answer:
